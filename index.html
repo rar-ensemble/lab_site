@@ -1,0 +1,70 @@
+---
+layout: default
+title: Riggleman Research Lab
+categories:
+ - home
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <object id="home-logo" class="pull-left" data="/images/rigg.png" type="image/png">
+    </object>
+    <div id="home-title">
+      Riggleman Computational Soft Matter Lab
+    </div>
+  </div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+  <div class="col-md-12">
+    The Riggleman Lab at the University of Pennsylvania
+    develops and implements advanced molecular modeling techniques
+    to study soft matter systems like polymers and glassy materials.
+    We explore the dynamics and thermodynamics of these systems
+    across a variety of time and length scales
+    to help explain and predict experimental findings.
+  </div>
+</div>
+
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>
+      <a class="off" href="/publications/">
+        Recent Publications
+      </a>
+    </h1>
+    <hr>
+    <div class="bigspacer"></div>
+  </div>
+</div>
+
+<div class="row">
+  {% for publication in site.categories.publications limit:4 %}
+    {% include pub_box.html pub=publication short=true %}
+  {% endfor %}
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>
+      <a class="off" href="/research/">
+        Current Research Topics
+      </a>
+    </h1>
+    <hr>
+    <div class="bigspacer"></div>
+  </div>
+</div>
+
+<div class="row">
+  {% for topic in site.categories.research limit:3 %}
+    {% include research_box.html topic_loc=topic %}
+  {% endfor %}
+</div>

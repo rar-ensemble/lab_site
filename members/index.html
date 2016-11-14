@@ -1,0 +1,70 @@
+---
+layout: default
+title: Riggleman Lab / Members
+categories:
+ - members
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>Principal Investigator</h1>
+  </div>
+</div>
+
+<hr>
+
+{% for member in site.categories.members reversed %}
+  {% if member.position == "Principal Investigator" %}
+<div class="row">
+  <div class="col-sm-3">
+    <a href="{{ member.url }}">
+      <img class="pi-img" src="{{ member.image }}">
+    </a>
+    <div class="spacer"></div>
+    <div class="hidden-xs">
+      {% include member_links.html member_loc=member %}
+    </div>
+  </div>
+  <div class="col-sm-9">
+    <a class="off" href="{{ member.url }}">
+      <h2>{{ member.title }}</h2>
+    </a>
+    <div class="bigspacer"></div>
+    {{ member.content }}
+  </div>
+</div>
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<div class="bigspacer"></div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>Postdoctoral Researchers</h1>
+  </div>
+</div>
+
+<hr>
+
+{% include member_loop.html member_role="Postdoctoral Researcher" alumni=false %}
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>PhD Students</h1>
+  </div>
+</div>
+
+<hr>
+
+{% include member_loop.html member_role="PhD Student" alumni=false %}
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>Alumni</h1>
+  </div>
+</div>
+
+<hr>
+
+{% include member_loop.html alumni=true%}

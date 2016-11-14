@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+{% assign member = page %}
+
+<div class="row">
+  <div class="col-sm-12">
+    <div class="media">
+      {% if member.image %}
+      <img class="pull-left pad-right media-object" width=170 src="{{ member.image }}">
+      {% endif %}
+      <div class="media-body">
+        <h1>{{ member.title }}</h1>
+        <div class="bigspacer"></div>
+        <h3>{{ member.position }}</h3>
+        <div class="bigspacer"></div>
+        <h3>{{ member.research }}</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+  <div class="col-md-3">
+    {% include member_links.html member_loc=member %}
+  </div>
+  <div class="col-md-9">
+    <div class="post">
+      {{ content }}
+    </div>
+
+    {% for publication in site.categories.publications %}
+      {% for author in publication.authors %}
+        {% if author == member.title %}
+          {% assign papersq = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% if papersq %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if papersq == true %}
+
+    <div class="bigspacer"></div>
+    <h3>Publications</h3>
+    <div class="spacer"></div>
+
+      {% for publication in site.categories.publications %}
+        {% for author in publication.authors %}
+          {% if author == member.title %}
+    <p><a href="{{ publication.url }}" class="off">{{ publication.title }}</a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
+
+  </div>
+  <div class="col-md-1"></div>
+</div>

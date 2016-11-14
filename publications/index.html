@@ -1,0 +1,45 @@
+---
+layout: default
+title: Riggleman Lab / Publications
+categories:
+ - publications
+---
+
+  <div class="bigspacer"></div>
+
+{% for publication in site.categories.publications %}
+  {% capture prev_year %}{{ this_year }}{% endcapture %}
+  {% capture this_year %}{{ publication.year }}{% endcapture %}
+
+  {% if forloop.first %}
+    {% assign counter = 0 %}
+  <div class="row">
+    <div class="col-md-12">
+      <h1>{{ this_year }}</h1>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+  {% elsif this_year != prev_year %}
+    {% assign counter = 0 %}
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h1>{{ this_year }}</h1>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+  {% else %}
+    {% assign counter = counter | plus: 1 %}
+    {% assign mod = counter | modulo: 2 %}
+    {% if mod == 0 %}
+  </div>
+  <div class="row">
+    {% endif %}
+  {% endif %}
+
+    {% include pub_box.html pub=publication %}
+
+{% endfor %}
+  </div>

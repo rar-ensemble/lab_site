@@ -1,0 +1,130 @@
+{% if include.member_loc.cv %}
+<div class="smallhead">
+  CV
+</div>
+<div class="pad-left note">
+  <div class="smallspacer"></div>
+  <i class="fa fa-file-text-o fa-fw"></i>
+  <a class="off" href="{{ include.member_loc.cv }}">{{ include.member_loc.cv | split: '/' | last }}</a>
+</div>
+<div class="bigspacer"></div>
+{% endif %}
+{% if include.member_loc.resume %}
+<div class="smallhead">
+  Resume
+</div>
+<div class="pad-left note">
+  <div class="smallspacer"></div>
+  <i class="fa fa-file-text-o fa-fw"></i>
+  <a class="off" href="{{ include.member_loc.resume }}">{{ include.member_loc.resume | split: '/' | last }}</a>
+</div>
+<div class="bigspacer"></div>
+{% endif %}
+{% if include.member_loc.twitter %}
+<div class="smallhead">
+  Twitter
+</div>
+<div class="pad-left note">
+  <div class="smallspacer"></div>
+  <i class="fa fa-twitter fa-fw"></i>
+  <a class="off" href="https://twitter.com/{{ include.member_loc.twitter }}">{{ include.member_loc.twitter }}</a>
+</div>
+<div class="bigspacer"></div>
+{% endif %}
+{% if include.member_loc.github %}
+<div class="smallhead">
+  GitHub
+</div>
+<div class="pad-left note">
+  <div class="smallspacer"></div>
+  <i class="fa fa-github-alt fa-fw"></i>
+  <a class="off" href="https://github.com/{{ include.member_loc.github }}">{{ include.member_loc.github }}</a>
+</div>
+<div class="bigspacer"></div>
+{% endif %}
+{% if include.member_loc.bitbucket %}
+<div class="smallhead">
+  Bitbucket
+</div>
+<div class="pad-left note">
+  <div class="smallspacer"></div>
+  <i class="fa fa-bitbucket fa-fw"></i>
+  <a class="off" href="https://bitbucket.org/{{ include.member_loc.bitbucket }}">
+    {{ include.member_loc.bitbucket }}
+  </a>
+</div>
+<div class="bigspacer"></div>
+{% endif %}
+{% if include.member_loc.scholar %}
+<div class="smallhead">
+  Google Scholar
+</div>
+<div class="pad-left note">
+  <div class="smallspacer"></div>
+  <i class="fa fa-book fa-fw"></i>
+  <a class="off" href="http://scholar.google.com/citations?user={{ include.member_loc.scholar }}">{{ include.member_loc.title }}</a>
+</div>
+<div class="bigspacer"></div>
+{% endif %}
+{% if include.member_loc.linkedin %}
+<div class="smallhead">
+  LinkedIn
+</div>
+<div class="pad-left note">
+  <div class="smallspacer"></div>
+  <i class="fa fa-linkedin-square fa-fw"></i>
+  <a class="off" href="https://www.linkedin.com/in/{{ include.member_loc.linkedin }}">
+    {{ include.member_loc.title }}
+  </a>
+</div>
+<div class="bigspacer"></div>
+{% endif %}
+{% if include.member_loc.researchgate %}
+<div class="smallhead">
+  ResearchGate
+</div>
+<div class="pad-left note">
+  <div class="smallspacer"></div>
+  <i class="fa fa-link fa-fw"></i>
+  <a class="off" href="https://www.researchgate.net/profile/{{ include.member_loc.researchgate }}">
+    {{ include.member_loc.researchgate }}
+  </a>
+</div>
+<div class="bigspacer"></div>
+{% endif %}
+{% if include.member_loc.website %}
+<div class="smallhead">
+  Website
+</div>
+<div class="pad-left note">
+  <div class="smallspacer"></div>
+  <i class="fa fa-globe fa-fw"></i>
+  <a class="off" href="http://{{ include.member_loc.website }}">
+    {{ include.member_loc.website }}
+  </a>
+</div>
+<div class="bigspacer"></div>
+{% endif %}
+{% if include.member_loc.email %}
+{% assign emailarray = include.member_loc.email | split: ' at ' %}
+<div class="smallhead">
+  Email
+</div>
+<div class="pad-left note">
+  <div class="smallspacer"></div>
+  <i class="fa fa-inbox fa-fw"></i>
+  {{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
+</div>
+<div class="bigspacer"></div>
+{% endif %}
+{% if include.member_loc.phone %}
+<div class="smallhead">
+  Phone
+</div>
+<div class="pad-left note">
+  <div class="smallspacer"></div>
+  <i class="fa fa-phone fa-fw"></i>
+  {{ include.member_loc.phone }}
+</div>
+<div class="bigspacer"></div>
+{% endif %}

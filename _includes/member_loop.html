@@ -1,0 +1,78 @@
+{% if include.alumni != true %}
+
+  {% assign counter = 1 %}
+  {% assign loopindex = -1 %}
+  {% for member in site.categories.members reversed %}
+    {% if member.alumni != true and member.position == include.member_role %}
+      {% assign loopindex = counter | modulo: 2 %}
+      {% if loopindex == 1 %}
+<div class="row">
+      {% endif %}
+  <div class="col-sm-6">
+    <div class="row">
+      <div class="col-xs-6">
+        <a href="{{ member.url }}">
+          <img width=100% class="media-object" src="{{ member.image }}">
+        </a>
+      </div>
+      <div class="col-xs-6">
+        <a href="{{ member.url }}" class="off">
+          <h2>{{ member.title }}</h2>
+        </a>
+        <div class="spacer"></div>
+        <p class="note">{{ member.research }}</p>
+      </div>
+    </div>
+    <div class="bigspacer"></div>
+    <div class="bigspacer"></div>
+  </div>
+      {% if loopindex == 0 %}
+</div>
+      {% endif %}
+      {% assign counter = counter | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  {% if loopindex == 1 %}
+</div>
+  {% endif %}
+
+{% else %}
+
+  {% assign counter = 1 %}
+  {% assign loopindex = -1 %}
+  {% for member in site.categories.members %}
+    {% if member.alumni == true %}
+      {% assign loopindex = counter | modulo: 2 %}
+      {% if loopindex == 1 %}
+<div class="row">
+      {% endif %}
+  <div class="col-sm-6">
+    <div class="row">
+      <div class="col-xs-6">
+        <a href="{{ member.url }}">
+          <img width=100% class="media-object" src="{{ member.image }}">
+        </a>
+      </div>
+      <div class="col-xs-6">
+        <a href="{{ member.url }}" class="off">
+          <h2>{{ member.title }}</h2>
+        </a>
+        <div class="spacer"></div>
+        <p class="note">{{ member.position }}</p>
+        <p class="note">{{ member.research }}</p>
+      </div>
+    </div>
+    <div class="bigspacer"></div>
+    <div class="bigspacer"></div>
+  </div>
+      {% if loopindex == 0 %}
+</div>
+      {% endif %}
+      {% assign counter = counter | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  {% if loopindex == 1 %}
+</div>
+  {% endif %}
+
+{% endif %}

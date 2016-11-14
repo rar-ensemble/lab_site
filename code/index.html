@@ -1,0 +1,26 @@
+---
+layout: default
+title: Riggleman Lab / Code
+categories:
+ - code
+---
+
+<div class="bigspacer"></div>
+
+{% for project in site.categories.code %}
+
+  {% cycle 'add rows': '<div class="row">', nil, nil %}
+  <div class="col-md-4 projectbox">
+      <a href="{{ project.github-url }}" class="off">
+        <h2>{{ project.title }}</h2>
+      </a>
+    <div class="smallspacer"></div>
+      <a href="{{ project.github-url }}" class="off">
+        {{ project.description }}
+      </a>
+    <div class="bigspacer"></div>
+    <div class="spacer"></div>
+  </div>
+  {% cycle 'close rows': nil, nil, '</div>' %}
+{% endfor %}
+  {% cycle 'close rows': nil, '</div>', '</div>' %}

@@ -1,0 +1,45 @@
+---
+layout: default
+title: Riggleman Lab / Research
+categories:
+ - research
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>Research Topics</h1>
+    <hr>
+  </div>
+</div>
+
+<div class="spacer"></div>
+
+{% for topic in site.categories.research %}
+  {% unless topic.simframework %}
+    {% cycle 'add rows': '<div class="row">', nil, nil %}
+    {% include research_box.html topic_loc=topic %}
+    {% cycle 'close rows': nil, nil, '</div>' %}
+  {% endunless %}
+{% endfor %}
+    {% cycle 'close rows': nil, '</div>', '</div>' %}
+
+<div class="bigspacer"></div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>Simulation Frameworks</h1>
+    <hr>
+  </div>
+</div>
+
+<div class="spacer"></div>
+
+{% for topic in site.categories.research %}
+  {% if topic.simframework %}
+    {% cycle 'add rows': '<div class="row">', nil, nil %}
+    {% include research_box.html topic_loc=topic %}
+  {% endif %}
+    {% cycle 'close rows': nil, nil, '</div>' %}
+{% endfor %}
+    {% cycle 'close rows': nil, '</div>', '</div>' %}
+

@@ -1,0 +1,209 @@
+---
+---
+
+@home-logo-size: 170px;
+@footer-logo-height: 45px;
+@margin-color: #ffffff;
+@content-background-color: #ffffff;
+@global-max-width: 950px;
+@pi-img-max-size: 200px;
+
+@import "/css/bootstrap/bootstrap.less";
+@navbar-height: 40px;
+@navbar-margin-bottom: 0px;
+@line-height-base: 1.6;
+@content-padding: 20px;
+@nav-pills-active-link-hover-bg: @navbar-default-bg;
+@nav-pills-active-link-hover-color: @gray;
+// @brand-primary: #DD2D2D;
+// @code-color: #586E75;
+// @pre-color: #586E75;
+// @well-bg: #f8f8f8;
+// @code-bg: #f8f8f8;
+// @pre-bg: #f8f8f8;
+
+@import "/css/font-awesome/font-awesome.less";
+@fa-font-path: "font";
+
+@import "/css/solarized.less";
+@import "/css/katex.less";
+
+// General Font Stuff //
+
+h1, .h1 { font-size: floor(@font-size-base * 2.15); } /* ~30px */
+h2, .h2 { font-size: ceil(@font-size-base * 1.70); }  /* ~24px */
+h3, .h3 { font-size: ceil(@font-size-base * 1.25); }  /* ~18px */
+h4, .h4 { font-size:  @font-size-base; }
+h5, .h5 { font-size: ceil(@font-size-base * 0.85); }  /* ~12px */
+h6, .h6 { font-size: ceil(@font-size-base * 0.75); }  /* ~10px */
+
+.smallhead {
+    font-size: floor(@font-size-base * 1.25)
+}
+
+.smallnote {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+// General Spacing and Color Stuff //
+
+.container {
+    max-width: @global-max-width;
+}
+
+#content-wrapper {
+    background-color: @margin-color;
+    .container {
+        background-color: @content-background-color;
+        padding-top: @content-padding;
+        padding-bottom: @content-padding;
+    }
+}
+
+h1 {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+h2, h3, h4, h5, h6 {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    height: 2px;
+    color: #000;
+    background-color: #AAA;
+}
+
+p + h2, p + h3, p + h4, p + h5, p + h6 {
+    margin-top: 20px; // Put space above header if it comes after a paragraph
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hugespacer {
+    height: 50px;
+}
+
+.bigspacer {
+    height: 20px;
+}
+
+.spacer {
+    height: 10px;
+}
+
+.smallspacer {
+    height: 5px;
+}
+
+a.off {
+    color: inherit; // keeps links from being red
+}
+
+.paperbox {
+    min-height: 120px;
+}
+
+// General Image Stuff //
+
+img {
+    .img-responsive;
+}
+
+img.offset {
+    float: right;
+    margin: 12px 0px 10px 15px;
+}
+
+.post img {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.research-thumbnail {
+    height: 200px;
+    overflow: hidden;
+}
+
+.research-thumbnail img {
+    height: 100%;
+}
+
+// Header and Footer Stuff //
+
+.navbar {
+    border-radius: 0px;
+}
+
+.footernav {
+    display: inline-block;
+    float: none;
+}
+
+#cbe-text {
+    padding: 5px;
+}
+
+#pennimg {
+    .center-block;
+    height: @footer-logo-height;;
+}
+
+#footer-logo {
+    height: @footer-logo-height;
+}
+
+// Home Page Stuff //
+
+#home-logo {
+    width: @home-logo-size;
+    height: @home-logo-size;
+    padding: 0px;
+    padding-right: 15px;
+}
+
+#home-title {
+    height: @home-logo-size;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: floor(@font-size-base * 2.50);
+}
+
+// Members Page Stuff //
+
+.pi-img {
+    width: 100%;
+    max-width: @pi-img-max-size;
+}
+
+// Some other stuff that might come in handy if we use these features //
+
+// pre {
+//     overflow-x: auto;
+// }
+
+// pre code {
+//     overflow-wrap: normal;
+//     white-space: pre;
+// }
+
+// table {
+//     .table;
+//     .table-striped;
+// }
+
+// blockquote {
+//     .text-gray;
+//     p {
+//         font-size: (@font-size-base * 1.00);
+//     }
+// }

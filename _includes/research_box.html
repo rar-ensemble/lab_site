@@ -1,0 +1,22 @@
+{% assign top = include.topic_loc %}
+
+<div class="col-md-4">
+  <div class="row research-thumbnail">
+    <a href="{{ top.url }}">
+      {% if top.thumbnail %}
+      <img class="center-block" src="{{ top.thumbnail }}">
+      {% elsif top.image %}
+      <img class="center-block" src="{{ top.image }}">
+      {% else %}
+      <img class="center-block" src="/images/research/default.png">
+      {% endif %}
+    </a>
+  </div>
+  <div class="row media-body">
+    <div class="smallhead text-center">
+      <a href="{{ top.url }}" class="off">{{ top.title }}</a>
+    </div>
+  </div>
+  <div class="bigspacer"></div>
+  <div class="spacer"></div>
+</div>

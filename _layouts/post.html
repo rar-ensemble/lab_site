@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="blog-post">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <div class="media">
+        <div class="media-body">
+          <div class="media-heading">
+            <a href="{{ page.url }}" class="off">
+              <h1>{{ page.title }}</h1>
+            </a>
+          </div>
+          <p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+
+  <div class="bigspacer"></div>
+
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      {% if page.image %}
+      {% if page.link %}
+      <a href="{{ page.link }}">
+        <img class="offset" src="{{ page.image }}">
+      </a>
+      {% else %}
+      <img class="offset" src="{{ page.image }}">
+      {% endif %}
+      {% endif %}
+      <div class="post">
+        {{ content }}
+      </div>
+      {% if page.publication-dois %}
+      <div class="bigspacer"></div>
+      <h2>Publications</h2>
+        {% for doi in page.publication-dois %}
+          {% capture pub-url %}http://dx.doi.org/{{ doi }}{% endcapture %}
+          {% capture pub-title %}{{ doi }}{% endcapture %}
+          {% for publication in site.categories.publications %}
+            {% if doi == publication.doi %}
+              {% capture pub-url %}{{ publication.url }}{% endcapture %}
+              {% capture pub-title %}{{ publication.title }}{% endcapture %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+      <p>
+        <a class="off" href="{{ pub-url }}">
+          {{ pub-title }}
+        </a>
+      </p>
+        {% endfor %}
+      {% endif %}
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+
+  <div class="bigspacer"></div>
+  <div class="spacer"></div>
+
+</div>

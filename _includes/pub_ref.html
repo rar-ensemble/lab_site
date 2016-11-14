@@ -1,0 +1,57 @@
+{% if include.short == true %}
+
+  {% for author in include.pub_loc.authors-short %}
+    {% assign linked = false %}
+    {% for member in site.categories.members %}
+      {% if author == member.abbrev %}
+        {% capture mem_url %}{{ member.url }}{% endcapture %}
+        {% assign linked = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% if linked %}
+      {% if forloop.last %}
+        <a class="off" href="{{ mem_url }}">{{ author }}</a>.
+      {% else %}
+        <a class="off" href="{{ mem_url }}">{{ author }}</a>,
+      {% endif %}
+    {% else %}
+      {% if forloop.last %}
+        {{ author }}.
+      {% else %}
+        {{ author }},
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  <i> {{ include.pub_loc.journal-short }}</i> ({{include.pub_loc.year}})
+
+{% else %}
+
+  {% for author in include.pub_loc.authors %}
+    {% assign linked = false %}
+    {% for member in site.categories.members %}
+      {% if author == member.title %}
+        {% capture mem_url %}{{ member.url }}{% endcapture %}
+        {% assign linked = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% if linked %}
+      {% if forloop.last %}
+        <a class="off" href="{{ mem_url }}">{{ author }}</a>.
+      {% else %}
+        <a class="off" href="{{ mem_url }}">{{ author }}</a>,
+      {% endif %}
+    {% else %}
+      {% if forloop.last %}
+        {{ author }}.
+      {% else %}
+        {{ author }},
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  <i> {{ include.pub_loc.journal }}</i> {{ include.pub_loc.ref }} ({{include.pub_loc.year}})
+
+{% endif %}

@@ -1,0 +1,11 @@
+name: Riggleman Research Lab
+description: Computational research on polymer and glassy materials from the Riggleman Lab at the University of Pennsylvania
+url: http://rrgroup.seas.upenn.edu
+
+markdown: kramdown
+permalink: /:categories/:title/
+future: true
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
