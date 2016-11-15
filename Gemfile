@@ -7,6 +7,3 @@ gem 'kramdown'
 # compiling less
 gem 'therubyracer'
 gem 'less'
-
-# minifying
-gem 'jekyll-press'
