@@ -10,7 +10,5 @@ email: anubhavs at seas.upenn.edu
 image: /images/members/anubhav-sharma.png
 ---
 
-Anubhav is originally from New Delhi, India.
-He graduated from GGSIPU and joined us in 2011.
-He is currently a Field Service Engineer at
+Anubhav is currently a Field Service Engineer at
 [OSISoft](http://www.osisoft.com/).

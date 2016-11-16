@@ -9,4 +9,5 @@ email: kailr at seas.upenn.edu
 image: /images/members/ramalingam-kailasham.jpg
 ---
 
-*Insert Bio Here*
+Ramalingam is a chemical engineer working on molecular simulations
+of semi-dilute polymer solutions.

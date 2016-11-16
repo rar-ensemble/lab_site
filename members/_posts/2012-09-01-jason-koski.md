@@ -10,4 +10,5 @@ alumni: true
 image: /images/members/jason-koski.png
 ---
 
-Jason is now a Post Doc at Sandia National Laboratories.
+Jason is now a Post Doc at
+[Sandia National Laboratories](http://www.sandia.gov/).
