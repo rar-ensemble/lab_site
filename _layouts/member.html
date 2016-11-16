@@ -11,9 +11,9 @@ layout: default
       <img class="pull-left pad-right media-object" width=170 src="{{ member.image }}">
       {% endif %}
       <div class="media-body">
-        <h1>{{ member.title }}</h1>
+        <h1>{{ member.title }}{% if member.suffix %}, {{ member.suffix }}{% endif %}</h1>
         <div class="bigspacer"></div>
-        <h3>{{ member.position }}</h3>
+        <h3><i>{{ member.position }}</i></h3>
         <div class="bigspacer"></div>
         <h3>{{ member.research }}</h3>
       </div>

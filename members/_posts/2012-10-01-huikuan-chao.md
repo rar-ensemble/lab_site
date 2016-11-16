@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Huikuan Chao
+suffix: M.S.
 abbrev: Chao
 position: PhD Student
 research: Nanoparticles with brushes in polymer matrix

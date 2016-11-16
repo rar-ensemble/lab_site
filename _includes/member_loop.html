@@ -17,7 +17,7 @@
       </div>
       <div class="col-xs-6">
         <a href="{{ member.url }}" class="off">
-          <h2>{{ member.title }}</h2>
+          <h2>{{ member.title }}{% if member.suffix %}, {{ member.suffix }}{% endif %}</h2>
         </a>
         <div class="spacer"></div>
         <p class="note">{{ member.research }}</p>
@@ -55,10 +55,10 @@
       </div>
       <div class="col-xs-6">
         <a href="{{ member.url }}" class="off">
-          <h2>{{ member.title }}</h2>
+          <h2>{{ member.title }}{% if member.suffix %}, {{ member.suffix }}{% endif %}</h2>
         </a>
         <div class="spacer"></div>
-        <p class="note">{{ member.position }}</p>
+        <p class="note"><i>{{ member.position }}</i></p>
         <p class="note">{{ member.research }}</p>
       </div>
     </div>
