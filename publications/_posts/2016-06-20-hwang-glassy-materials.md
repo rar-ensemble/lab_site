@@ -9,7 +9,7 @@ authors-short:
  - Hwang
  - Riggleman
  - Crocker
-image: /images/research/default.png
+image: /images/publications/hwang-glassy-materials.png
 year: 2016
 journal: "Nature Materials"
 journal-short: "Nat Mater"

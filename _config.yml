@@ -9,3 +9,4 @@ future: true
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
+  - "deploy.sh"
