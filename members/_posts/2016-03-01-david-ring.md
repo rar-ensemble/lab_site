@@ -1,7 +1,7 @@
 ---
 layout: member
 title: David Ring
-abbrev: Ring
+abbrev: D. Ring
 position: PhD Student
 research: Polymer nanocomposite separations membranes
 email: daring at seas.upenn.edu

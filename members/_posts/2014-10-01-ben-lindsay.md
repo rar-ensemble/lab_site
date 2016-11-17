@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Ben Lindsay
-abbrev: Lindsay
+abbrev: B. Lindsay
 position: PhD Student
 research: Vertical alignment of nanoparticles in nanocomposite film
 email: lindsb at seas.upenn.edu

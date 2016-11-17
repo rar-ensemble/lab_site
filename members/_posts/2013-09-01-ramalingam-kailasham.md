@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Ramalingam Kailasham
-abbrev: Kailasham
+abbrev: R. Kailasham
 alumni: true
 position: MS Student
 research: Molecular simulation of polymer films

@@ -2,7 +2,7 @@
 layout: member
 title: Amit Shavit
 suffix: Ph.D.
-abbrev: Shavit
+abbrev: A. Shavit
 position: PhD Student
 research: Nanomechanics of glass-forming materials
 email: shavitamit at gmail.com

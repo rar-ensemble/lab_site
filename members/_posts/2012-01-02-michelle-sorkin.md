@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Michelle Sorkin
-abbrev: Sorkin
+abbrev: M. Sorkin
 alumni: true
 position: Undergraduate
 research: Effect of molecular architecture on properties of polymer films

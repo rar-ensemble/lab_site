@@ -2,7 +2,7 @@
 layout: member
 title: Jason Koski
 suffix: Ph.D.
-abbrev: Koski
+abbrev: J. Koski
 position: PhD Student
 research: Developing field theoretic techniques to study polymer nanocomposites
 email: jkoski at seas.upenn.edu

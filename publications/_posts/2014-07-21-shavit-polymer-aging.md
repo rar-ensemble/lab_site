@@ -6,8 +6,8 @@ authors:
  - Amit Shavit
  - Robert Riggleman
 authors-short:
- - Shavit
- - Riggleman
+ - A. Shavit
+ - R. A. Riggleman
 year: 2014
 journal: "Journal of Physical Chemistry B"
 journal-short: "J Phys Chem B"

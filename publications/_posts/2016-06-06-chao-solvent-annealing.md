@@ -7,9 +7,9 @@ authors:
  - Jason Koski
  - Robert Riggleman
 authors-short:
- - Chao
- - Koski
- - Riggleman
+ - H. Chao
+ - J. Koski
+ - R. A. Riggleman
 year: 2016
 journal: "Soft Matter"
 journal-short: "Soft Matter"

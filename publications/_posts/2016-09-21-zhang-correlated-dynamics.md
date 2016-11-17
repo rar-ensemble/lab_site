@@ -13,13 +13,13 @@ authors:
  - Zahra Fakhraai
 authors-short:
  - Y. Zhang
- - Glor
- - Li
- - Liu
- - Wahid
+ - E. C. Glor
+ - M. Li
+ - T. Liu
+ - K. Wahid
  - W. Zhang
- - Riggleman
- - Fakhraai
+ - R. A. Riggleman
+ - Z. Fakhraai
 year: 2016
 journal: "Journal of Chemical Physics"
 journal-short: "J Chem Phys"

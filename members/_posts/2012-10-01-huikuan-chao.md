@@ -2,7 +2,7 @@
 layout: member
 title: Huikuan Chao
 suffix: M.S.
-abbrev: Chao
+abbrev: H. Chao
 position: PhD Student
 research: Nanoparticles with brushes in polymer matrix
 bitbucket: huikuan

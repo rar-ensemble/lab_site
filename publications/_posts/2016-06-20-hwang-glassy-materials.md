@@ -6,9 +6,9 @@ authors:
  - Robert Riggleman
  - John Crocker
 authors-short:
- - Hwang
- - Riggleman
- - Crocker
+ - H. J. Hwang
+ - R. A. Riggleman
+ - J. C. Crocker
 image: /images/publications/hwang-glassy-materials.png
 year: 2016
 journal: "Nature Materials"

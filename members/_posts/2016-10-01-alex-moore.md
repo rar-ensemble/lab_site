@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Alex Moore
-abbrev: Moore
+abbrev: A. Moore
 position: PhD Student
 research: Engineering stable glass thin films
 email: almoor at seas.upenn.edu
