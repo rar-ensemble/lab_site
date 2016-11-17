@@ -37,6 +37,10 @@ h4, .h4 { font-size:  @font-size-base; }
 h5, .h5 { font-size: ceil(@font-size-base * 0.85); }  /* ~12px */
 h6, .h6 { font-size: ceil(@font-size-base * 0.75); }  /* ~10px */
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, {
+    font-family: sans-serif;
+}
+
 .smallhead {
     font-size: floor(@font-size-base * 1.25)
 }
@@ -45,16 +49,6 @@ h6, .h6 { font-size: ceil(@font-size-base * 0.75); }  /* ~10px */
     font-size: 13px;
     font-weight: 300;
     line-height: 16px;
-}
-
-// font is loading and is hidden
-.wf-loading {
-    visibility: hidden;
-}
-
-// font has loaded and is visible
-.wf-active, .wf-inactive {
-    visibility: visible;
 }
 
 // General Spacing and Color Stuff //
