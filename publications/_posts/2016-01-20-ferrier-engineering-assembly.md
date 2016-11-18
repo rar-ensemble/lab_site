@@ -2,6 +2,7 @@
 layout: publication
 title: "Engineering the Assembly of Gold Nanorods in Polymer Matrices"
 image: /images/publications/ferrier-engineering-assembly.png
+co-first: true
 authors:
  - Robert Ferrier
  - Jason Koski
