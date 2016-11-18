@@ -4,7 +4,7 @@ title: Strain localization in glassy polymers under cylindrical confinement
 image: /images/publications/shavit-strain-localization.png
 authors:
  - Amit Shavit
- - Robert Riggleman
+ - Robert A. Riggleman
 authors-short:
  - A. Shavit
  - R. A. Riggleman
