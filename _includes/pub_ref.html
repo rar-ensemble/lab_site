@@ -9,18 +9,15 @@
         {% break %}
       {% endif %}
     {% endfor %}
-    {% if linked %}
-      {% if forloop.last %}
-        <a class="off" href="{{ mem_url }}">{{ author }}</a>.
-      {% else %}
-        <a class="off" href="{{ mem_url }}">{{ author }}</a>,
-      {% endif %}
+    {% if include.pub_loc.co-first and forloop.index == 2 %}
+      {% assign co-first-now = true %}
     {% else %}
-      {% if forloop.last %}
-        {{ author }}.
-      {% else %}
-        {{ author }},
-      {% endif %}
+      {% assign co-first-now = false %}
+    {% endif %}
+    {% if linked %}
+      <a class="off" href="{{ mem_url }}">{{ author }}</a>{% if co-first-now %} [co-first author]{% endif %}{% if forloop.last %}.{% else %}, {% endif %}
+    {% else %}
+      {{ author }}{% if co-first-now %} [co-first author]{% endif %}{% if forloop.last %}.{% else %}, {% endif %}
     {% endif %}
   {% endfor %}
 
@@ -37,18 +34,15 @@
         {% break %}
       {% endif %}
     {% endfor %}
-    {% if linked %}
-      {% if forloop.last %}
-        <a class="off" href="{{ mem_url }}">{{ author }}</a>.
-      {% else %}
-        <a class="off" href="{{ mem_url }}">{{ author }}</a>,
-      {% endif %}
+    {% if include.pub_loc.co-first and forloop.index == 2 %}
+      {% assign co-first-now = true %}
     {% else %}
-      {% if forloop.last %}
-        {{ author }}.
-      {% else %}
-        {{ author }},
-      {% endif %}
+      {% assign co-first-now = false %}
+    {% endif %}
+    {% if linked %}
+      <a class="off" href="{{ mem_url }}">{{ author }}</a>{% if co-first-now %} [co-first author]{% endif %}{% if forloop.last %}.{% else %}, {% endif %}
+    {% else %}
+      {{ author }}{% if co-first-now %} [co-first author]{% endif %}{% if forloop.last %}.{% else %}, {% endif %}
     {% endif %}
   {% endfor %}
 
