@@ -5,8 +5,8 @@ image: /images/publications/sharick-molecular-weight.png
 authors:
  - Sharon Sharick
  - Jason Koski
- - Robert Riggleman
- - Karen Winey
+ - Robert A. Riggleman
+ - Karen I. Winey
 authors-short:
  - S. Sharick
  - J. Koski

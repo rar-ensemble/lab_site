@@ -6,7 +6,7 @@ co-first: true
 authors:
  - Jason Koski
  - Brett Hagberg
- - Robert Riggleman
+ - Robert A. Riggleman
 authors-short:
  - J. Koski
  - B. Hagberg

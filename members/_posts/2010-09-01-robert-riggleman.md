@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Robert Riggleman
+title: Robert A. Riggleman
 abbrev: R. A. Riggleman
 position: Principal Investigator
 email: rrig at seas.upenn.edu

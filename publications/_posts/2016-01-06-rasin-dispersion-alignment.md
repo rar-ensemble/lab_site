@@ -7,8 +7,8 @@ authors:
  - Huikuan Chao
  - Guoqian Jiang
  - Dongliang Wang
- - Robert Riggleman
- - Russell Composto
+ - Robert A. Riggleman
+ - Russell J. Composto
 authors-short:
  - B. Rasin
  - H. Chao

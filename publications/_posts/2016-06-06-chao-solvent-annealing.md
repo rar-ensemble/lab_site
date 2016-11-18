@@ -5,7 +5,7 @@ image: /images/publications/chao-solvent-annealing.png
 authors:
  - Huikuan Chao
  - Jason Koski
- - Robert Riggleman
+ - Robert A. Riggleman
 authors-short:
  - H. Chao
  - J. Koski

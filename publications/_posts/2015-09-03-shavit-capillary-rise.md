@@ -4,7 +4,7 @@ title: The dynamics of unentangled polymers during capillary rise infiltration i
 image: /images/publications/shavit-capillary-rise.png
 authors:
  - Amit Shavit
- - Robert Riggleman
+ - Robert A. Riggleman
 authors-short:
  - A. Shavit
  - R. A. Riggleman

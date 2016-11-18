@@ -4,9 +4,9 @@ title: Local Polymer Dynamics and Diffusion in Cylindrical Nanoconfinement
 image: /images/publications/tung-local-dynamics.png
 authors:
  - Wei-Shao Tung
- - Russell Composto
- - Robert Riggleman
- - Karen Winey
+ - Russell J. Composto
+ - Robert A. Riggleman
+ - Karen I. Winey
 authors-short:
  - W-S Tung
  - R. J. Composto

@@ -5,7 +5,7 @@ image: /images/publications/koski-predicting-structure.png
 authors:
  - Jason Koski
  - Huikuan Chao
- - Robert Riggleman
+ - Robert A. Riggleman
 authors-short:
  - J. Koski
  - H. Chao

@@ -4,12 +4,12 @@ title: Long-range correlated dynamics in ultra-thin molecular glass films
 image: /images/publications/zhang-correlated-dynamics.png
 authors:
  - Yue Zhang
- - Ethan Glor
+ - Ethan C. Glor
  - Mu Li
  - Tianyi Liu
  - Kareem Wahid
  - William Zhang
- - Robert Riggleman
+ - Robert A. Riggleman
  - Zahra Fakhraai
 authors-short:
  - Y. Zhang

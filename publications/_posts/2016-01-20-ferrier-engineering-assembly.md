@@ -4,10 +4,10 @@ title: "Engineering the Assembly of Gold Nanorods in Polymer Matrices"
 image: /images/publications/ferrier-engineering-assembly.png
 co-first: true
 authors:
- - Robert Ferrier
+ - Robert C. Ferrier
  - Jason Koski
- - Robert Riggleman
- - Russell Composto
+ - Robert A. Riggleman
+ - Russell J. Composto
 authors-short:
  - R. C. Ferrier
  - J. Koski

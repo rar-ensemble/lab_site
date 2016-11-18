@@ -3,8 +3,8 @@ layout: publication
 title: Understanding soft glassy materials using an energy landscape approach
 authors:
  - Hyun Joo Hwang
- - Robert Riggleman
- - John Crocker
+ - Robert A. Riggleman
+ - John C. Crocker
 authors-short:
  - H. J. Hwang
  - R. A. Riggleman
