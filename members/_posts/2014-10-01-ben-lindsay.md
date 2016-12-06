@@ -8,7 +8,7 @@ email: lindsb at seas.upenn.edu
 website: benjlindsay.com
 github: benlindsay
 bitbucket: benlindsay
-linkedin: benjamin-lindsay-b1012028
+linkedin: benjlindsay
 image: /images/members/ben-lindsay.jpg
 ---
 
