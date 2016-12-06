@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Huikuan Chao
+profile_name: Huikuan (George) Chao
 suffix: M.S.
 abbrev: H. Chao
 position: PhD Student
