@@ -5,41 +5,40 @@ categories:
  - research
 ---
 
+<script src="/js/smooth-scroll.min.js"></script>
+
 <div class="row">
   <div class="col-md-12">
-    <h1>Research Topics</h1>
-    <hr>
+    <h1>Research</h1>
+    <hr/>
+    Here's a statement about the research we do here in the Riggleman Lab.
+    Blah Blah...
   </div>
 </div>
 
-<div class="spacer"></div>
+<div class="bigspacer"></div>
 
+<h3>Research Topics:</h3>
+<ol>
 {% for topic in site.categories.research %}
-  {% unless topic.simframework %}
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
-    {% include research_box.html topic_loc=topic %}
-    {% cycle 'close rows': nil, nil, '</div>' %}
-  {% endunless %}
+  <li>
+    <a data-scroll href="#topic{{ forloop.index }}">{{ topic.title }}</a>
+  </li>
 {% endfor %}
-    {% cycle 'close rows': nil, '</div>', '</div>' %}
+</ol>
 
 <div class="bigspacer"></div>
 
 <div class="row">
   <div class="col-md-12">
-    <h1>Simulation Frameworks</h1>
-    <hr>
+  {% for topic in site.categories.research %}
+    {% include research_post.html topic_loc=topic index=forloop.index %}
+    <div class="bigspacer"></div>
+    <div class="bigspacer"></div>
+  {% endfor %}
   </div>
 </div>
 
-<div class="spacer"></div>
-
-{% for topic in site.categories.research %}
-  {% if topic.simframework %}
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
-    {% include research_box.html topic_loc=topic %}
-  {% endif %}
-    {% cycle 'close rows': nil, nil, '</div>' %}
-{% endfor %}
-    {% cycle 'close rows': nil, '</div>', '</div>' %}
-
+<script>
+  smoothScroll.init();
+</script>
