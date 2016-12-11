@@ -101,11 +101,12 @@ layout: default
       <div class="bigspacer"></div>
       <h2>Related Research Topics</h2>
         {% for topic in site.categories.research %}
+          {% assign topic_index = forloop.index %}
           {% assign listed = false %}
           {% for doi in topic.publication-dois %}
             {% if doi == page.doi %}
       <p>
-        <a class="off" href="{{ topic.url }}">
+        <a class="off" href="/research/#topic{{ topic_index }}">
           {{ topic.title }}
         </a>
       </p>

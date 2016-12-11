@@ -65,6 +65,6 @@ categories:
 
 <div class="row">
   {% for topic in site.categories.research limit:3 %}
-    {% include research_box.html topic_loc=topic %}
+    {% include research_box.html topic_loc=topic index=forloop.index %}
   {% endfor %}
 </div>
