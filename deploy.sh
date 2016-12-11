@@ -17,7 +17,9 @@ fi
 git fetch --all
 git reset --hard origin/master
 # regenerate site content
+cd -
 jekyll build
+cd -
 # commmit changes and push to remote
 git add .
 git commit -m "Site updated on $(date)"
