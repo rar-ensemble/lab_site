@@ -5,8 +5,6 @@ categories:
  - publications
 ---
 
-  <div class="bigspacer"></div>
-
 {% for publication in site.categories.publications %}
   {% capture prev_year %}{{ this_year }}{% endcapture %}
   {% capture this_year %}{{ publication.year }}{% endcapture %}
