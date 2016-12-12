@@ -5,7 +5,8 @@ suffix: Ph.D.
 abbrev: J. Koski
 position: PhD Student
 research: Developing field theoretic techniques to study polymer nanocomposites
-email: jkoski at seas.upenn.edu
+email: jkoski134 at gmail.com
+scholar: 64yuufQAAAAJ
 alumni: true
 image: /images/members/jason-koski.png
 ---

@@ -5,9 +5,9 @@ abbrev: R. Kailasham
 alumni: true
 position: MS Student
 research: Molecular simulation of polymer films
-email: kailr at seas.upenn.edu
+email: kailasham29 at gmail.com
+linkedin: kailashamr
 image: /images/members/ramalingam-kailasham.jpg
 ---
 
-Ramalingam is a chemical engineer working on molecular simulations
-of semi-dilute polymer solutions.
+Ramalingam is currently a PhD student at the [IIT Bombay - Monash Research Academy](http://www.iitbmonash.org/).

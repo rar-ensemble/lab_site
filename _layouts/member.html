@@ -50,13 +50,15 @@ layout: default
     <h3>Publications</h3>
     <div class="spacer"></div>
 
+    <ol>
       {% for publication in site.categories.publications %}
         {% for author in publication.authors %}
           {% if author == member.title %}
-    <p><a href="{{ publication.url }}">{{ publication.title }}</a>
+      <li><a href="{{ publication.url }}">{{ publication.title }}</a></li>
           {% endif %}
         {% endfor %}
       {% endfor %}
+    </ol>
     {% endif %}
 
   </div>
