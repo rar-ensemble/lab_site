@@ -1,0 +1,28 @@
+---
+layout: default
+title: Riggleman Lab / Photos
+categories:
+ - photos
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>Group Photos</h1>
+  </div>
+</div>
+
+<hr>
+
+{% for photo in site.categories.photos %}
+<div class="row">
+  <div class="col-md-12">
+    <h2>{{ photo.title }}</h2>
+    <hr/>
+    <img width=100% src="{{ photo.image }}">
+    <p>{{ photo.content }}</p>
+  </div>
+</div>
+
+<div class="spacer"></div>
+
+{% endfor %}

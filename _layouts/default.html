@@ -79,6 +79,13 @@
             {% endif %}
               <a href="/publications/">Publications</a>
             </li>
+            {% if page.categories.first == 'members' %}
+            <li class="active">
+            {% else %}
+            <li>
+            {% endif %}
+              <a href="/members/">Members</a>
+            </li>
             {% if page.categories.first == 'code' %}
             <li class="active">
             {% else %}
@@ -86,12 +93,12 @@
             {% endif %}
               <a href="/code/">Code</a>
             </li>
-            {% if page.categories.first == 'members' %}
+            {% if page.categories.first == 'photos' %}
             <li class="active">
             {% else %}
             <li>
             {% endif %}
-              <a href="/members/">Members</a>
+              <a href="/photos/">Photos</a>
             </li>
           </ul>
         </div>
