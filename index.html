@@ -48,23 +48,3 @@ categories:
     {% include pub_box.html pub=publication short=true %}
   {% endfor %}
 </div>
-
-<div class="bigspacer"></div>
-
-<div class="row">
-  <div class="col-md-12">
-    <h1>
-      <a class="off" href="/research/">
-        Current Research Topics
-      </a>
-    </h1>
-    <hr>
-    <div class="bigspacer"></div>
-  </div>
-</div>
-
-<div class="row">
-  {% for topic in site.categories.research limit:3 %}
-    {% include research_box.html topic_loc=topic index=forloop.index %}
-  {% endfor %}
-</div>
