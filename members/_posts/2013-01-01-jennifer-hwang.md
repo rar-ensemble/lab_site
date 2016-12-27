@@ -9,5 +9,3 @@ email: hyunhw at seas.upenn.edu
 github: hyunhw
 image: /images/members/jennifer-hwang.jpg
 ---
-
-*Insert Bio Here*

@@ -13,5 +13,3 @@ linkedin: huikuan-chao-69942528
 researchgate: Huikuan_Chao
 image: /images/members/huikuan-chao.jpg
 ---
-
-*Insert Bio Here*
