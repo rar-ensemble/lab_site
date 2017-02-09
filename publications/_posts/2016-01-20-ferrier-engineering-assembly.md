@@ -16,6 +16,7 @@ authors-short:
 year: 2016
 journal: "Macromolecules"
 journal-short: "Macromolecules"
+ref: "<b>49</b>(3): 1002-1015"
 doi: 10.1021/acs.macromol.5b02317
 ---
 

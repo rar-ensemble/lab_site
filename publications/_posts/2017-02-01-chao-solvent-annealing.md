@@ -10,9 +10,10 @@ authors-short:
  - H. Chao
  - J. Koski
  - R. A. Riggleman
-year: 2016
+year: 2017
 journal: "Soft Matter"
 journal-short: "Soft Matter"
+ref: "<b>13</b>: 239-249"
 doi: 10.1039/C6SM00770H
 ---
 
