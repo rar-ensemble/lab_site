@@ -43,8 +43,19 @@ categories:
   </div>
 </div>
 
-<div class="row">
+  {% assign counter = 1 %}
+  {% assign loopindex = -1 %}
   {% for publication in site.categories.publications limit:4 %}
+    {% assign loopindex = counter | modulo: 2 %}
+    {% if loopindex == 1 %}
+<div class="row">
+    {% endif %}
     {% include pub_box.html pub=publication short=true %}
-  {% endfor %}
+    {% if loopindex == 0 %}
 </div>
+    {% endif %}
+    {% assign counter = counter | plus: 1 %}
+  {% endfor %}
+  {% if loopindex == 1 %}
+</div>
+  {% endif %}
