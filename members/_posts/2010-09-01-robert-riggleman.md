@@ -9,7 +9,7 @@ phone: 215-898-2411
 image: /images/members/robert-riggleman.jpg
 ---
 
-### Assistant Professor of Chemical and Biomolecular Engineering
+### Associate Professor of Chemical and Biomolecular Engineering
 
 <div class="bigspacer"></div>
 
