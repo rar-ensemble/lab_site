@@ -5,6 +5,8 @@ author: Rob Riggleman
 image: /images/research/cari.png
 thumbnail: /images/research/cari.png
 publication-dois:
+ - 10.1021/acsnano.7b00298
+ - 10.1039/C5SM01866H
  - 10.1063/1.4962734
  - 10.1021/jp502952n
  - 10.1039/C3CP55330B
