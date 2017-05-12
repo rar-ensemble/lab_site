@@ -21,6 +21,15 @@
         </a>
         <div class="spacer"></div>
         <p class="note">{{ member.research }}</p>
+      {% if member.email %}
+        {% assign emailarray = member.email | split: ' at ' %}
+        <div class="pad-left note">
+          <div class="smallspacer"></div>
+          <i class="fa fa-inbox fa-fw"></i>
+          {{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
+        </div>
+        <div class="bigspacer"></div>
+        {% endif %}
       </div>
     </div>
     <div class="bigspacer"></div>
