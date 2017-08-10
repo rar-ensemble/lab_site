@@ -25,7 +25,7 @@ This page is a description of recommended data management practices specifically
 
 ## Our Network-Attached Storage (NAS) Device
 
-We use an 8-bay [Synology DS1817+](https://www.synology.com/en-us/products/DS1817+) NAS device. This device will help us achieve 2 important things: 1) regular backups of ongoing work, and 2) long-term storage or completed work. The storage on this device is divided into 2 volumes, `volume1` and `volume2`, where `volume1` is intended for regular backups and `volume2` is intended for long-term storage. The image and table below summarize the differences between the two volumes.
+We use an 8-bay [Synology DS1817+](https://www.synology.com/en-us/products/DS1817+) NAS device. This device will help us achieve 2 important things: 1) regular backups of ongoing work, and 2) long-term storage of completed work. The storage on this device is divided into 2 volumes, `volume1` and `volume2`, where `volume1` is intended for regular backups and `volume2` is intended for long-term storage. The image and table below summarize the differences between the two volumes.
 
 ![Synology NAS Device](/images/data-management/synology-nas.png "Synology NAS Device")
 
@@ -77,6 +77,15 @@ The script will ask you some questions, and you just need to leave things blank 
 2. If not, then create `~/.ssh/authorized_keys` file with proper permissions in your account on the NAS and copy your public key to the NAS
 3. Create an alias (with your permission) to make SSH-ing into the NAS easier (you'll just type `rrstorage` to log in)
 
+*Side Note:* Usually, to set up password-free SSH access, you just need to the following:
+
+```
+$ user@macbook:~$ ssh-keygen -t rsa
+$ user@macbook:~$ cat .ssh/id_rsa.pub | ssh user@hostname 'cat >> .ssh/authorized_keys'
+```
+
+The first command generates a public key in `.ssh/id_rsa.pub`, so if this file already exists, you don't need to do it again. The second command adds the contents of that file to the end of the `.ssh/authorized_keys` file on the remote server so it recognizes your computer next time you SSH in. For the NAS, a few other things need to happen, like creating necessary directories with the right permissions, so the script simplifies the process. You can see the contents of the script [here](https://github.com/benlindsay/rrbackup/blob/master/setup_ssh.sh).
+
 <div class="spacer"></div>
 
 ### Step 3: Set up recurring automatic backups
@@ -88,7 +97,7 @@ user@rrlogin:/opt/share/rrbackup$ ./setup_cron.sh
 ```
 
 This will do the following:
-1. Add a line to your crontab file that runs the backup.sh file at 12:01 AM every night. Although backup.sh will be run every night, the script itself checks whether it's your day for a backup, and only runs the actual backup command if it's your day.
+1. Add a line to your crontab file that runs the `backup.sh` file at 12:01 AM every night. Although `backup.sh` will be run every night, the script itself checks whether it's your day for a backup, and only runs the actual backup command if it's your day.
 2. Add a line to the `user_list.txt` file with your username. This file determines the order of backups. i.e. if backups happen every 2 weeks (which is the case as of 7/28/2017), then the first person (and the 15th and 29th people etc.) will be backed up on the first day of the cycle, the second person (and the 16th and 30th people etc.) will be backed up on the second day of the cycle etc.
 
 To make sure the command worked, you could type `crontab -l` to print the contents of your crontab file, which would look like this (if you didn't already have stuff in your crontab file):
@@ -99,6 +108,8 @@ user@rrlogin:~$ crontab -l
 1 0 * * * /opt/share/rrbackup/backup.sh
 # END BACKUP COMMAND
 ```
+
+If you want more information about setting up `cron` jobs, you can find that [here](http://www.adminschoice.com/crontab-quick-reference).
 
 <div class="bigspacer"></div>
 
@@ -208,7 +219,7 @@ Another little nuance is that it matters whether or not there's a `/` after the 
 Example 1:
 
 ```
-user@rrlogin:~$ rsync -a dir_to_copy user@rrstorage.synology.me:~
+user@rrlogin:~$ rsync -av dir_to_copy user@rrstorage.synology.me:~
 building file list ... done
 dir_to_copy/
 dir_to_copy/dir1/
