@@ -242,7 +242,7 @@ user@rrstorage:~$ tree .
 Example 2:
 
 ```
-user@rrlogin:~$ rsync -a dir_to_copy/ user@rrstorage.synology.me:~
+user@rrlogin:~$ rsync -av dir_to_copy/ user@rrstorage.synology.me:~
 building file list ... done
 ./
 dir1/
