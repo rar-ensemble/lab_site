@@ -2,7 +2,7 @@
 layout: member
 title: Huikuan Chao
 profile_name: Huikuan (George) Chao
-suffix: M.S.
+suffix: Ph.D.
 abbrev: H. Chao
 position: PhD Student
 research: Nanoparticles with brushes in polymer matrix

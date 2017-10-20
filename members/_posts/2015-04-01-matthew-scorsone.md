@@ -2,6 +2,7 @@
 layout: member
 title: Matthew Scorsone
 abbrev: M. Scorsone
+suffix: M.S.
 alumni: true
 position: MS Student
 research:

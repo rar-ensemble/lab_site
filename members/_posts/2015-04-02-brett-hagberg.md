@@ -2,6 +2,7 @@
 layout: member
 title: Brett Hagberg
 abbrev: B. Hagberg
+suffix: M.S.
 alumni: true
 position: Undergrad
 research: Polymer field theoretic simulations of polymer nanocomposites
