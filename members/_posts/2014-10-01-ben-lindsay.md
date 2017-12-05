@@ -1,7 +1,8 @@
 ---
 layout: member
-title: Ben Lindsay
-abbrev: B. Lindsay
+title: Benjamin J. Lindsay
+profile_name: Ben Lindsay
+abbrev: B. J. Lindsay
 position: PhD Student
 research: Vertical alignment of nanoparticles in nanocomposite film
 email: lindsb at seas.upenn.edu
@@ -13,7 +14,7 @@ image: /images/members/ben-lindsay.jpg
 ---
 
 I am a PhD student in the Chemical and Biomolecular Engineering department,
-and I'm am also coadvised by [Russ Composto](http://www.seas.upenn.edu/~polymer/)
+and I'm also coadvised by [Russ Composto](http://www.seas.upenn.edu/~polymer/)
 in the Materials Science and Engineering department.
 I use polymer field theory simulations to probe interactions
 between nanoparticles and polymer matrices

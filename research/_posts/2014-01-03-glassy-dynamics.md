@@ -5,6 +5,7 @@ author: Rob Riggleman
 image: /images/research/glassy-films.png
 thumbnail: /images/research/glassy-films-thumbnail.png
 publication-dois:
+ - 10.1126/science.aai8830
  - 10.1063/1.4962734
  - 10.1038/nmat4663
  - 10.1103/PhysRevX.4.031014

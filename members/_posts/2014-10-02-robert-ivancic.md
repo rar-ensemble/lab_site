@@ -1,7 +1,8 @@
 ---
 layout: member
-title: Robert Ivancic
-abbrev: R. Ivancic
+title: Robert J. S. Ivancic
+profile_name: Robert Ivancic
+abbrev: R. J. S. Ivancic
 position: PhD Student
 research: Shear banding in polymer pillars
 email: ivancicr at sas.upenn.edu
