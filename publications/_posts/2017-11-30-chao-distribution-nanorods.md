@@ -13,6 +13,7 @@ authors-short:
 year: 2017
 journal: "Journal of Physical Chemistry B"
 journal-short: "J Phys Chem B"
+ref: "<b>121</b>(49): 11198-111209"
 doi: 10.1021/acs.jpcb.7b07862
 ---
 
