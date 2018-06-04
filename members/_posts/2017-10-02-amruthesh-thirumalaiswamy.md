@@ -4,7 +4,7 @@ title: Amruthesh Thirumalaiswamy
 #profile_name: Amruthesh Thirumalaiswamy
 abbrev: A. Thirumalaiswamy
 position: PhD Student
-research: Soft glassy materials modelling
+research: Soft Glassy Matter Rheology: Theory and Modeling 
 #bitbucket: huikuan
 email: amru at seas.upenn.edu
 #scholar: GafF6ScAAAAJ
