@@ -13,4 +13,4 @@ email: amru at seas.upenn.edu
 image: /images/members/amruthesh-thirumalaiswamy.jpg
 alumni: false
 ---
-Amruthesh is currently a PhD student, co-advised by [John Crocker](crocker.seas.upenn.edu).
+Amruthesh is currently a PhD student, co-advised by [John Crocker](https://crocker.seas.upenn.edu).
