@@ -13,4 +13,6 @@ email: amru at seas.upenn.edu
 image: /images/members/amruthesh-thirumalaiswamy.jpg
 alumni: false
 ---
-Amruthesh is currently a PhD student, co-advised by [John Crocker](https://crocker.seas.upenn.edu).
+I'm a PhD student in the department of Chemical and Biomolecular Engineering co-advised by Prof. [John Crocker](https://crocker.seas.upenn.edu). I'm studying the rheology of soft glassy matter through simulations and developing toy models to explain the system dynamics.
+
+I received my undergraduate degree in Chemical Engineering from the [Indian Institute of Technology, Bombay](http://www.iitb.ac.in/). 
