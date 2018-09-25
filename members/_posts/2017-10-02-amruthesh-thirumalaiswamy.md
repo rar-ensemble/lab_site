@@ -9,7 +9,7 @@ research: "Soft Glassy Matter Rheology: Theory and Modeling"
 email: amru at seas.upenn.edu
 #scholar: GafF6ScAAAAJ
 #linkedin: huikuan-chao-69942528
-#researchgate: Huikuan_Chao
+#researchgate: H uikuan_Chao
 image: /images/members/amruthesh-thirumalaiswamy.jpg
 alumni: false
 ---
