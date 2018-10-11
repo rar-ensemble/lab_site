@@ -10,7 +10,7 @@ email: amru at seas.upenn.edu
 #scholar: GafF6ScAAAAJ
 #linkedin: huikuan-chao-69942528
 #researchgate: H uikuan_Chao
-image: /images/members/amruthesh-thirumalaiswamy.jpg
+image: /images/members/amruthesh-thriumalaiswamy.jpg
 alumni: false
 ---
 I'm a PhD student in the department of Chemical and Biomolecular Engineering co-advised by Prof. [John Crocker](https://crocker.seas.upenn.edu). I'm studying the rheology of soft glassy matter through simulations and developing toy models to explain the system dynamics.
