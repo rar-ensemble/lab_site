@@ -3,33 +3,33 @@ layout: publication
 title: "Polymer Diffusion Is Fastest at Intermediate Levels of Cylindrical Confinement"
 # image: /images/publications/delrio-riggleman-emerging-investigators.png
 authors:
- - Tianren Zhang
+ - James Pressly
  - Robert A. Riggleman
  - Karen I. Winey
 authors-short:
- - T. Zhang
+ - J. Pressly
  - R. A. Riggleman
  - K. I. Winey
 year: 2018
 journal: "Macromolecules"
 journal-short: "Marco."
-ref: "<i>52</i> (1), pp 271-226"
-doi: 10.1021/acs.macromol.8b01779
+ref: "<i>51</i> (23), pp 9789-9797"
+doi: 10.1021/acs.macromol.8b01728
 ---
 
-Although many studies have analyzed the behavior of polymers under 1-D thin film
-and 2-D cylindrical confinement, the knowledge about how confinement geometries
-with more than one length scale, such as random porous networks, impact polymers
-is yet to be fully explored. We simulate both entangled and unentangled polymer
-melts confined in a diamond network geometry with two characteristic length
-scales, where polymers are likely to inhabit multiple interconnected and
-neighboring channels. In all the confined systems with entangled polymer chains,
-the polymer radius of gyration and the number of polymer entanglements per chain
-are reduced compared to the bulk. We analyze the chain relaxation based on Rouse
-modes and show separate, competing effects between the local friction near the
-wall and chain disentanglement. The disentanglement of confined polymers
-increases diffusivity of entangled polymers along confined channels compared to
-the bulk after the confined diffusivities are corrected for the tortuosity of
-the confinement. We anticipate that the corrections due to tortuosity could be
-important for properly characterizing the dynamics in complex geometries,
-including highly loaded nanocomposites.
+The behavior of polymer melts under cylindrical confinement was investigated
+using molecular dynamics simulations. A range of polymer chains, from
+unentangled to highly entangled, were confined in cylindrical pores with radii
+ranging from much smaller to much larger than the polymer size. These
+simulations were used to measure polymer chain conformation, entanglement
+density, and center-of-mass diffusion. The conformational anisotropy is
+well-described by a confined random walk model, although excluded volume effects
+cause slight differences in the radius of gyration. The number of entanglements
+per chain in confinement is accurately described using a simple volume fraction
+model consisting of a zero-entanglement region near the pore wall and a bulklike
+entanglement region in the pore center. The size of the depletion region near
+the wall is chain length dependent. Finally, the diffusion along the pore axis
+exhibits nonmonotonic behavior with the pore radius. As the pore radius
+decreases, the diffusion coefficient, $D$, initially increases due to increasing
+chain disentanglement, though for small pores $D$ eventually decreases as a result
+of confinement-induced chain segregation.
