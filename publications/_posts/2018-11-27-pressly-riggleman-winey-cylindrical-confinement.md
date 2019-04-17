@@ -30,6 +30,6 @@ model consisting of a zero-entanglement region near the pore wall and a bulklike
 entanglement region in the pore center. The size of the depletion region near
 the wall is chain length dependent. Finally, the diffusion along the pore axis
 exhibits nonmonotonic behavior with the pore radius. As the pore radius
-decreases, the diffusion coefficient, $D$, initially increases due to increasing
-chain disentanglement, though for small pores $D$ eventually decreases as a result
+decreases, the diffusion coefficient, $$ D $$, initially increases due to increasing
+chain disentanglement, though for small pores $$ D $$ eventually decreases as a result
 of confinement-induced chain segregation.
