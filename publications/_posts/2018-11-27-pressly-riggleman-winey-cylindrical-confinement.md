@@ -12,7 +12,7 @@ authors-short:
  - K. I. Winey
 year: 2018
 journal: "Macromolecules"
-journal-short: "Marco."
+journal-short: "Macro."
 ref: "<i>51</i> (23), pp 9789-9797"
 doi: 10.1021/acs.macromol.8b01728
 ---

@@ -12,7 +12,7 @@ authors-short:
  - R. A. Riggleman
 year: 2019
 journal: "Macromolecules"
-journal-short: "Marco."
+journal-short: "Macro."
 ref: "<i>52</i><b>1</b> 217-226"
 doi: 10.1021/acs.macromol.8b01779
 ---
