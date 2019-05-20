@@ -93,7 +93,7 @@ The first command generates a public key in `.ssh/id_rsa.pub`, so if this file a
 While still in the `/opt/share/rrbackup` directory, run the following command:
 
 ```
-user@rrlogin:/opt/share/rrbackup$ ./setup_cron.sh
+user@rrlogin:/opt/share/rrbackup$ ./setup_cron_backup.sh
 ```
 
 This will do the following:
@@ -127,14 +127,12 @@ user@rrstorage:~$ readlink -f .
 
 The `readlink -f .` command above tells us the true file path of the home directory, showing that when we log in, we are in `volume2`. As mentioned above, this is where you'll move data to when you are not currently working on it.
 
-After the first time your rrlogin home directory has been backed up, you'll be able to find that data in your `/volume1/backup/user/rrbackup/` folder. The alias `cdb` has been made available to everyone to `cd` to their `/volume1/backup/user/` folder. So finding your backed-up data would look like this:
+After the first time your rrlogin home directory has been backed up, you'll be able to find that data in your `/volume1/backup/user/rrbackup/` folder. So finding your backed-up data would look like this:
 
 ```
 user@rrlogin:~$ rrstorage
-user@rrstorage:~$ cdb
+user@rrstorage:~$ cd /volume1/backup/$USER/rrbackup
 user@rrstorage:/volume1/backup/user$ ls
-rrbackup
-user@rrstorage:/volume1/backup/user$ ls rrbackup
 [all of user's backed-up files]
 ```
 
