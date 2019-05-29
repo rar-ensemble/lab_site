@@ -41,7 +41,7 @@ We won't get into the weeds with RAID (Redundant Array of Independent Disks) ter
 
 ## Getting Started
 
-NOTE: Anywhere it says `user` below, just substitute your own username.
+NOTE: Anywhere it says `user` below, substitute your own username.
 
 The NAS can be accessed either via SSH in your terminal or in a browser-based GUI. You'll need to do some setup steps in both. Here are the steps you'll need to take:
 
@@ -65,19 +65,19 @@ From there, click the "Personal" option under the Profile dropdown. This will op
 
 ### Step 2: Set up password-free SSH
 
-For auto-backups to take place, rrlogin and rrstorage need to be able to communicate with each other without asking you for a password each time. To set this up, you just need to do the following while logged into rrlogin:
+For auto-backups to take place, rrlogin and rrstorage need to be able to communicate with each other without asking you for a password each time. To set this up, you need to do the following while logged into rrlogin:
 
 ```
 user@rrlogin:~$ cd /opt/share/rrbackup
 user@rrlogin:/opt/share/rrbackup$ ./setup_ssh.sh
 ```
 
-The script will ask you some questions, and you just need to leave things blank and press `Enter`, or `yes` then `Enter` if it asks a yes/no question. The script will do the following things:
+The script will ask you some questions, and you need to leave things blank and press `Enter`, or `yes` then `Enter` if it asks a yes/no question. The script will do the following things:
 1. Check if password-free SSH access has already been set up
 2. If not, then create `~/.ssh/authorized_keys` file with proper permissions in your account on the NAS and copy your public key to the NAS
-3. Create an alias (with your permission) to make SSH-ing into the NAS easier (you'll just type `rrstorage` to log in)
+3. Create an alias (with your permission) to make SSH-ing into the NAS easier (you'll type `rrstorage` to log in)
 
-*Side Note:* Usually, to set up password-free SSH access, you just need to the following:
+*Side Note:* Usually, to set up password-free SSH access, you need to the following:
 
 ```
 $ user@macbook:~$ ssh-keygen -t rsa
@@ -93,7 +93,7 @@ The first command generates a public key in `.ssh/id_rsa.pub`, so if this file a
 While still in the `/opt/share/rrbackup` directory, run the following command:
 
 ```
-user@rrlogin:/opt/share/rrbackup$ ./setup_cron.sh
+user@rrlogin:/opt/share/rrbackup$ ./setup_cron_backup.sh
 ```
 
 This will do the following:
@@ -127,14 +127,12 @@ user@rrstorage:~$ readlink -f .
 
 The `readlink -f .` command above tells us the true file path of the home directory, showing that when we log in, we are in `volume2`. As mentioned above, this is where you'll move data to when you are not currently working on it.
 
-After the first time your rrlogin home directory has been backed up, you'll be able to find that data in your `/volume1/backup/user/rrbackup/` folder. The alias `cdb` has been made available to everyone to `cd` to their `/volume1/backup/user/` folder. So finding your backed-up data would look like this:
+After the first time your rrlogin home directory has been backed up, you'll be able to find that data in your `/volume1/backup/user/rrbackup/` folder. So finding your backed-up data would look like this:
 
 ```
 user@rrlogin:~$ rrstorage
-user@rrstorage:~$ cdb
+user@rrstorage:~$ cd /volume1/backup/$USER/rrbackup
 user@rrstorage:/volume1/backup/user$ ls
-rrbackup
-user@rrstorage:/volume1/backup/user$ ls rrbackup
 [all of user's backed-up files]
 ```
 
@@ -188,7 +186,7 @@ user@macbook:~$ ssh user@rrlogin.seas.upenn.edu
 user@rrlogin:~$ screen -r 6457
 ```
 
-at which point I'll see my super useful process, which I'll kill with `CTRL-C`, then kill the whole screen session using `exit` or `CTRL-D` (not `CTRL-A`+`CTRL-D`, which would just detach it again).
+at which point I'll see my super useful process, which I'll kill with `CTRL-C`, then kill the whole screen session using `exit` or `CTRL-D` (not `CTRL-A`+`CTRL-D`, which would detach it again).
 
 ```
 ...
