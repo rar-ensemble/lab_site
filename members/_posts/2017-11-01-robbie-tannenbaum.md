@@ -7,7 +7,6 @@ abbrev: R. Tannenbaum
 position: MS Student
 research: Field Theoretic Modelling for Equilibrium Polymer Conformations in Nanocomposite Systems
 email: rtann at alumni.upenn.edu
-linkedin: tabedzki 
 image: /images/members/robbie-tannenbaum.jpg
 ---
 
