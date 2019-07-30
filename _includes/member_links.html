@@ -79,6 +79,19 @@
 </div>
 <div class="bigspacer"></div>
 {% endif %}
+{% if include.member_loc.portfolium%}
+<div class="smallhead">
+  Portfolium
+</div>
+<div class="pad-left note">
+  <div class="smallspacer"></div>
+  <i class="fa fa-user fa-fw"></i>
+  <a class="off" href="https://www.portfolium.com/{{ include.member_loc.portfolium }}">
+         {{ include.member_loc.title }}
+  </a>
+</div>
+<div class="bigspacer"></div>
+{% endif %}
 {% if include.member_loc.researchgate %}
 <div class="smallhead">
   ResearchGate
