@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Effect of substrate interactions on the glass transition and length-scale of correlated dynamics in ultra-thin molecular glass films"
-# image: /images/publications/delrio-riggleman-emerging-investigators.png
+image: /images/publications/2018-11-14-zhang-woods-alvarez-jin-riggleman-fakhraai-substrate-interactions.jpg
 authors:
  - Yue Zhang
  - Connor N. Woods

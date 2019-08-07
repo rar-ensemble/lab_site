@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Critical Contact Angle to Induce Capillary Rise of Polymers in Nanopores Does Not Depend on Chain Length"
-# image: /images/publications/delrio-riggleman-emerging-investigators.png
+image: /images/publications/2018-12-18-ring-riggleman-lee-critical-contact-indep-of-chain-length.jpeg
 authors:
  - David J. Ring
  - Robert A. Riggleman

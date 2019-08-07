@@ -1,6 +1,7 @@
 ---
 layout: publication
 title: "Distinguishing failure modes in oligomeric polymer nanopillars"
+image: /images/publications/2019-07-29-lin-failure-modes.gif
 authors:
  - Emily Y. Lin
  - Robert A. Riggleman

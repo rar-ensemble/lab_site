@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Polymer Conformations and Dynamics under Confinement with Two Length Scales"
-# image: /images/publications/delrio-riggleman-emerging-investigators.png
+image: /images/publications/2018-12-19-zhang-winey-riggleman.jpeg
 authors:
  - Tianren Zhang
  - Karen I. Winey

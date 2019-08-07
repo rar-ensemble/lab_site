@@ -1,6 +1,7 @@
 ---
 layout: publication
 title: "Phase Behavior of Grafted Polymer Nanocomposites from Field-Based Simulations"
+image: /images/publications/2019-07-29-koski-phase-grafted-poly-nanocomposite.jpeg
 co-first: true
 authors:
  - Jason Koski

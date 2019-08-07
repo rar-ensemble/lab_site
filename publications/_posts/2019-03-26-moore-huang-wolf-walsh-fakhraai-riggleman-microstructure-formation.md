@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Effects of microstructure formation on the stability of vapor-desposited glasses"
-# image: /images/publications/delrio-riggleman-emerging-investigators.png
+image: /images/publications/2019-05-08-ivancic-identifying-structural-signatures.jpg
 authors:
  - Alex Moore
  - Georgia Huang

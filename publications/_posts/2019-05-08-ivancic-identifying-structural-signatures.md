@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Identifying structural signatures of shear banding in model polymer nanopillars"
-# image: /images/publications/delrio-riggleman-emerging-investigators.png
+image: /images/publications/2019-05-08-ivancic-identifying-structural-signatures.gif
 authors:
  - Robert J. S. Ivancic
  - Robert A. Riggleman

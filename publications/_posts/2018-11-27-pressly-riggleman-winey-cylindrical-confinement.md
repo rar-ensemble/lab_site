@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Polymer Diffusion Is Fastest at Intermediate Levels of Cylindrical Confinement"
-# image: /images/publications/delrio-riggleman-emerging-investigators.png
+image: /images/publications/2018-11-27-pressly-riggleman-winey-cylindrical-confinement.jpeg
 authors:
  - James Pressly
  - Robert A. Riggleman
