@@ -1,8 +1,8 @@
 ---
 layout: member
-title: Ning Wang
+title: Yuwei Zhang
 alumni: false 
-profile_name: Ning Wang
+profile_name: Yuwei Zhang 
 abbrev: N. Wang
 position: MS Student
 research: Glass transition in thin films
