@@ -1,7 +1,8 @@
 ---
 layout: member
-title: David J. Ring, PhD
-profile_name: David Ring, PhD
+title: David J. Ring
+profile_name: David Ring
+suffix: PhD
 alumni: true
 abbrev: D. J. Ring
 position: PhD Student
