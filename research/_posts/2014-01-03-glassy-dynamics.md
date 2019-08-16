@@ -24,6 +24,8 @@ publication-dois:
  - 10.1103/PhysRevLett.99.215501
  - 10.1063/1.2742382
  - 10.1103/PhysRevLett.97.045502
+ - 10.1073/pnas.1821761116
+ - 10.1063/1.5038174
 ---
 
 Many nanotechnology applications, such as semiconductor manufacturing, require the production of stable structures of glass-forming materials (molecular glasses, polymers) with features on the order of 5-30 nm in size. While creating such structures is a tremendous challenge by itself, the problem is exacerbated because the properties of glass-formers can change dramatically when they are confined to such small length scales. Their glass transition temperature and elastic constants can change from their bulk values in counter-intuitive ways. Fortunately, these length scales where confinement has an effect are reasonable to simulate directly with molecular dynamics and Monte Carlo simulations. We explore how a variety of glass-forming materials such as molecular glasses and polymer glasses are affected by nanoscale confinement using these simulation techniques in an effort to control and understand the origins of the property changes.
