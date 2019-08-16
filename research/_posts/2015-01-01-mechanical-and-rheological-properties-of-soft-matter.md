@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mechanical and rheological properties of soft matter
+title: Mechanical and rheological properties of soft glassy matter
 author: Rob Riggleman
 publication-dois:
  - 10.1038/nmat4663
