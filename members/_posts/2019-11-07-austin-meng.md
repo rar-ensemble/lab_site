@@ -6,6 +6,7 @@ profile_name: Austin Meng
 abbrev: A. Meng
 position: PhD Student
 research: TBD
+image: /images/members/austin_meng.jpg
 email: ajm1428 at seas.upenn.edu
 ---
 
