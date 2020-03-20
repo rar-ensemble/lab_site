@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Christian Tabedzki
-profile_name: Chris Tabedzki
+profile_name: Christian Tabedzki
 abbrev: C. Tabedzki
 position: PhD Student
 research: Anisotropic Polymer Nanocomposite Simulations
