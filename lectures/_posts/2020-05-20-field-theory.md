@@ -7,7 +7,7 @@ contributors:
 ---
 
 ## Lecture schedule:
-1. 5/20: Math Preliminaries
+1. 5/20: Math Preliminaries Video Lecture (Available shortly) [Notes (PDF)](/pdf/lectures/field-theory/lecture-1-math-primer.pdf)
 1. 5/21: Particle-to-field transformations, averages and operators
 1. 5/27: Mean-field approximation, simple fluid examples
 1. 5/28: Polymers in fields
