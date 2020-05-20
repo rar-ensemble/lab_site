@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="media">
+      {% if page.image %}
+      <img class="pull-left pad-right media-object" width=170 src="{{ page.image }}">
+      {% endif %}
+      <div class="media-body">
+        <h1>
+            {{ page.title }}
+        </h1>
+        <!-- <div class="smallhead">
+          {% include pub_ref.html pub_loc=page short=false %}
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="bigspacer"></div> -->
+
+<div class="row">
+  <!-- <div class="col-md-3">
+    <div class="bigspacer"></div>
+    <div class="glyphbox note">
+      {% if page.pdf %}
+      <div class="smallhead">
+        PDF
+      </div>
+      <div class="pad-left note">
+        <div class="smallspacer"></div>
+        <i class="fa fa-file-text-o fa-fw"></i>
+        <a class="off" href="{{ page.pdf }}">{{ page.pdf | split: '/' | last }}</a>
+      </div>
+      <div class="bigspacer"></div>
+      {% endif %}
+    </div>
+  </div> -->
+  <div class="col-md-10">
+    <div class="post">
+      <!-- <h2>{{ page.description }}</h2>
+      <div class="spacer"></div> -->
+      {{ content }}
+
+      {% for topic in site.categories.research %}
+        {% assign listed = false %}
+        {% for doi in topic.publication-dois %}
+          {% if doi == page.doi %}
+            {% assign listed = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% if listed == true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
+      {% if listed == true %}
+      <div class="bigspacer"></div>
+      <h2>Related Research Topics</h2>
+        {% for topic in site.categories.research %}
+          {% assign topic_index = forloop.index %}
+          {% assign listed = false %}
+          {% for doi in topic.publication-dois %}
+            {% if doi == page.doi %}
+      <p>
+        <a href="/research/#topic{{ topic_index }}">
+          {{ topic.title }}
+        </a>
+      </p>
+              {% assign listed = true %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+</div>
