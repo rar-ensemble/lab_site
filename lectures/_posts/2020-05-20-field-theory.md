@@ -12,5 +12,5 @@ contributors:
 1. 5/27: Mean-field approximation, simple fluid examples [Video Lecture (YouTube)](https://youtu.be/ckV4fU-oVrc) [Notes (PDF)](/pdfs/lectures/field-theory/lecture-3-example-simple-fluid-theories.pdf)
 1. 5/28: Polymers in fields [Video Lecture (YouTube)](https://youtu.be/UdA5zbXhYlI) [Notes (PDF)](/pdfs/lectures/field-theory/lecture-4-polymers-in-fields.pdf)
 1. 6/1: Weak Inhomogeneity Expansion [Video Lecture (YouTube)](https://youtu.be/4ynetZcv-HA) [Notes (PDF)](/pdfs/lectures/field-theory/lecture-5-weak-inhomogeneity-expansion.pdf)
-1. 6/3: Density Functional Theory
+1. 6/3: Density Functional Theory [Video Lecture (YouTube)](https://youtu.be/YTk-oeClx68) [Notes (PDF)](/pdfs/lectures/field-theory/lecture-6-dft.pdf)
 1. 6/4: Static Structure Factor
