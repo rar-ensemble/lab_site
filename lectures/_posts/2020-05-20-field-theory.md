@@ -17,5 +17,4 @@ contributors:
 | 5/28 | Polymers in Fields                                        | [YouTube Video 4 ](https://youtu.be/UdA5zbXhYlI) | [PDF  4](/pdfs/lectures/field-theory/lecture-4-polymers-in-fields.pdf)            |
 | 6/1  | Weak Inhomogeneity Expansion                              | [YouTube Video 5 ](https://youtu.be/4ynetZcv-HA) | [PDF  5](/pdfs/lectures/field-theory/lecture-5-weak-inhomogeneity-expansion.pdf)  |
 | 6/3  | Density Functional Theory                                 | [YouTube Video 6 ](https://youtu.be/YTk-oeClx68) | [PDF  6](/pdfs/lectures/field-theory/lecture-6-dft.pdf)                           |
-| 6/4  | Static Structure Factor                                   |                                                  |                                                                                   |
-|      |                                                           |                                                  |                                                                                   |
+| 6/4  | Static Structure Factor                                   | [YouTube Video 7 ](https://youtu.be/yjIfhK0wW3s) | [PDF  7](/pdfs/lectures/field-theory/lecture-7-free-energy-functional.pdf)      | 
