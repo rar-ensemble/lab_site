@@ -1,6 +1,7 @@
 ---
 layout: publication
 title: "Equilibrium Field Theoretic Study of Nanoparticle Interactions in Diblock Copolymer Melts"
+image: /images/publications/2019-10-07-equil-ft-study-np-interactions-diblock-copolymer-melts.gif 
 authors:
  - Benjamin J. Lindsay
  - Russell J. Composto

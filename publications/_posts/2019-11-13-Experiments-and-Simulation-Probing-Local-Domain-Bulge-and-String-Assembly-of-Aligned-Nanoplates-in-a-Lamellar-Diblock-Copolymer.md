@@ -1,6 +1,7 @@
 ---
 layout: publication
 title: "Experiments and Simulations Probing Local Domain Bulge and String Assembly of Aligned Nanoplates in a Lamellar Diblock Copolymer"
+image: /images/publications/2019-11-13-Experiments-and-Simulation-Probing-Local-Domain-Bulge-and-String-Assembly-of-Aligned-Nanoplates-in-a-Lamellar-Diblock-Copolymer.gif
 co-first: true
 authors:
  - Nadia M. Krook

@@ -1,6 +1,7 @@
 ---
 layout: publication
 title: "Effect of Polymer-Nanoparticle Interactions on Solvent-driven Infiltration of Polymer (SIP) into Nanoparticle Packings: a Molecular Dynamics Study "
+image: /images/publications/2019-12-20-Venkatesh-Polymer-Nanoparticle-Interactions-SIP.gif
 authors:
  - R. Bharath Venkatesh
  - Tianren Zhang
