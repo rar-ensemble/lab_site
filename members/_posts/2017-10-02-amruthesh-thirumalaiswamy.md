@@ -1,18 +1,17 @@
 ---
 layout: member
 title: Amruthesh Thirumalaiswamy
-#profile_name: Amruthesh Thirumalaiswamy
+profile_name: Amruthesh T
 abbrev: A. Thirumalaiswamy
 position: PhD Student
-research: "Soft Glassy Matter Rheology: Theory and Modeling"
-#bitbucket: huikuan
+research: "Energy landscape exploration and modeling for soft-glassy systems"
 email: amru at seas.upenn.edu
 #scholar: GafF6ScAAAAJ
-#linkedin: huikuan-chao-69942528
-#researchgate: H uikuan_Chao
-image: /images/members/amruthesh-thriumalaiswamy.jpg
+linkedin: amruthesh-t-64a89511a
+github: amruthesht
+image: /images/members/amruthesh-thirumalaiswamy.jpg
 alumni: false
 ---
-I'm a PhD student in the department of Chemical and Biomolecular Engineering co-advised by Prof. [John Crocker](https://crocker.seas.upenn.edu). I'm studying the rheology of soft glassy matter through simulations and developing toy models to explain the system dynamics.
+I'm a Ph.D. student in the department of Chemical and Biomolecular Engineering, co-advised by Prof. [John Crocker](https://crocker.seas.upenn.edu). I'm studying the physics of soft glassy systems, and developing tools and models to explore the energy landscape of these systems.
 
-I received my undergraduate degree in Chemical Engineering from the [Indian Institute of Technology, Bombay](http://www.iitb.ac.in/). 
+I completed my undergraduate major in Chemical Engineering from the [Indian Institute of Technology, Bombay](http://www.iitb.ac.in/), with a minor in Physics.
