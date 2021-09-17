@@ -2,7 +2,7 @@
 layout: publication
 title: "Chain and Segmental Dynamics in Polymer–Nanoparticle Composites with High Nanoparticle Loading " 
 authors:
- - Emily Y. Lin
+ - Emily Lin
  - Amalie L. Frischknecht
  - Robert A. Riggleman
 authors-short:

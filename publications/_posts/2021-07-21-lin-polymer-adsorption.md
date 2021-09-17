@@ -2,7 +2,7 @@
 layout: publication
 title: "Effect of surface properties and polymer chain length on polymer adsorption in solution "
 authors:
- - Emily Y. Lin
+ - Emily Lin
  - Amalie L. Frischknecht
  - Karen I. Winey
  - Robert A. Riggleman
