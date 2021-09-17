@@ -16,7 +16,7 @@ authors:
  - Kevin Turner
  - Daeyeon Lee
 authors-short:
- - R.B. Venkatesh
+ - R. B. Venkatesh
  - N. Manohar
  - Y. Qiang
  - H. Wang
