@@ -9,7 +9,6 @@ research: Highly-filled polymer blend nanocomposites
 email: annaneu at seas.upenn.edu
 scholar: t0MgfgAAAAJ
 twitter: annaneupenn
-website: sites.google.com/seas.upenn.edu/annaneu
 image: /images/members/anna-neuman.png
 ---
 
