@@ -7,7 +7,7 @@ abbrev: A. Neuman
 position: PhD Student
 research: Highly-filled polymer blend nanocomposites
 email: annaneu at seas.upenn.edu
-website: [seas.upenn.edu/annaneu] (sites.google.com/seas.upenn.edu/annaneu/home)
+website: [seas.upenn.edu/annaneu] (https://sites.google.com/seas.upenn.edu/annaneu/home )
 image: /images/members/anna-neuman.png
 ---
 
