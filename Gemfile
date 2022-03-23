@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # jekyll
-gem 'jekyll', '>=3.6'
+gem 'jekyll', '>= 3.6.3'
 
 gem 'kramdown'
 
