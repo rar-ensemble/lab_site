@@ -5,6 +5,7 @@ profile_name: Huikuan (George) Chao
 suffix: Ph.D.
 abbrev: H. Chao
 position: Senior Research Specialist, Dow 
+research: Ph.D. Alum
 bitbucket: huikuan
 scholar: GafF6ScAAAAJ
 linkedin: huikuan-chao-69942528

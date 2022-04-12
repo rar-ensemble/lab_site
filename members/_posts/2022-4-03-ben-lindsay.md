@@ -6,6 +6,7 @@ abbrev: B. J. Lindsay
 alumni: True
 suffix: Ph.D.
 position: Data Scientist, C.H. Robinson
+research: Ph.D. Alum
 website: benjlindsay.com
 github: benlindsay
 bitbucket: benlindsay

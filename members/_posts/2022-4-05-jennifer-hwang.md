@@ -6,6 +6,7 @@ abbrev: H. J. Hwang
 alumni: True
 suffix: Ph.D.
 position: Senior Data Scientist, Forcepoint 
+research: Ph.D. Alum
 github: hyunhw
 image: /images/members/jennifer-hwang.jpg
 ---
