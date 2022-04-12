@@ -5,7 +5,6 @@ abbrev: R. A. Riggleman
 position: Principal Investigator
 email: rrig at seas.upenn.edu
 scholar: aNlEZRUAAAAJ
-phone: 215-898-2411
 image: /images/members/robert-riggleman.jpg
 ---
 
