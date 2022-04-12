@@ -3,7 +3,7 @@ layout: member
 title: Ramalingam Kailasham
 abbrev: R. Kailasham
 suffix: PhD
-alumni: mas
+alumni: true
 position: Postdoctoral Fellow, Carnegie Mellon University 
 research: Molecular simulation of polymer films
 email: kailasham29 at gmail.com

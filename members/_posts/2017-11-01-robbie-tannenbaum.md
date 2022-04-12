@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Robert Tannenbaum 
-alumni: mas
+alumni: true
 profile_name: Robert Tannenbaum
 abbrev: R. Tannenbaum
 position: Ph.D. student, Columbia University

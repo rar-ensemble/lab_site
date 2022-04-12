@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Yuwei Zhang
-alumni: mas
+alumni: true
 profile_name: Yuwei Zhang 
 abbrev: Y. Zhang
 position: PhD Student, Penn State University

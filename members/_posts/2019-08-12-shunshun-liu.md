@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Shunshun Liu
-alumni: mas 
+alumni: true 
 profile_name: Shunshun Liu
 abbrev: S. Liu
 position: PhD Student, University of Virginia
