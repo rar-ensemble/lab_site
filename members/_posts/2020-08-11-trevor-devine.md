@@ -2,8 +2,8 @@
 layout: member
 title: Trevor Devine
 abbrev: T. Devine
-research: Thermodynamics of highly confined polymer blend nanocomposites 
 position: PhD Student
+research: Thermodynamics of highly confined polymer blend nanocomposites 
 email:  devinetr at seas.upenn.edu
 image: /images/members/trevor-devine.jpg
 ---
