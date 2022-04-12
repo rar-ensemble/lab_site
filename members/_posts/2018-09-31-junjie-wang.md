@@ -1,9 +1,7 @@
 ---
 layout: member
 title: Junjie Wang 
-position:  MS Student
-alumni: True
-email: wjj at seas.upenn.edu
+alumni: mas
 image: /images/members/junjie-wang.jpg
 research: Simulation of polymer network and gels
 ---

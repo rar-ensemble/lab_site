@@ -1,12 +1,11 @@
 ---
 layout: member
 title: Shunshun Liu
-alumni: True 
+alumni: mas 
 profile_name: Shunshun Liu
 abbrev: S. Liu
-position: MS Student
+position: PhD Student, University of Virginia
 research: Dynamics of glass thin-film interface
-email: shunl at seas.upenn.edu
 image: /images/members/shunshun-liu.jpg
 ---
 

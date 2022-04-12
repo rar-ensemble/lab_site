@@ -2,13 +2,12 @@
 layout: member
 title: Ramalingam Kailasham
 abbrev: R. Kailasham
-suffix: M.S.
-alumni: true
-position: MS Student
+suffix: PhD
+alumni: mas
+position: Postdoctoral Fellow, Carnegie Mellon University 
 research: Molecular simulation of polymer films
 email: kailasham29 at gmail.com
 linkedin: kailashamr
 image: /images/members/ramalingam-kailasham.jpg
 ---
 
-Ramalingam is currently a PhD student at the [IIT Bombay - Monash Research Academy](http://www.iitbmonash.org/).

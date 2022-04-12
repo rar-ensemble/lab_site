@@ -3,10 +3,8 @@ layout: member
 title: Anubhav Sharma
 suffix: M.S.
 abbrev: A. Sharma
-alumni: true
-position: MS Student
+alumni: mas
 research: Mechanics of differently shaped polymers using simulations
-email: anubhavs at seas.upenn.edu
 image: /images/members/anubhav-sharma.png
 ---
 

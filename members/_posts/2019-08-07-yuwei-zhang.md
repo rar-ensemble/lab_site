@@ -1,12 +1,11 @@
 ---
 layout: member
 title: Yuwei Zhang
-alumni: True 
+alumni: mas
 profile_name: Yuwei Zhang 
 abbrev: Y. Zhang
-position: MS Student
+position: PhD Student, Penn State University
 research: Glass transition in thin films
-email: yuwzhang at seas.upenn.edu
 image: /images/members/yuwei-zhang.jpg
 ---
 

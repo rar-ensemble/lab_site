@@ -51,7 +51,7 @@ categories:
 
 <div class="row">
   <div class="col-md-12">
-    <h1>PhD Students</h1>
+    <h1>Current PhD Students</h1>
   </div>
 </div>
 
@@ -83,7 +83,7 @@ categories:
 
 <div class="row">
   <div class="col-md-12">
-    <h1>Alumni</h1>
+    <h1>PhD Alumni</h1>
   </div>
 </div>
 
@@ -91,3 +91,44 @@ categories:
 
 {% include member_loop.html alumni=true%}
 
+<div class="row">
+  <div class="col-md-12">
+    <h1>Postdoctoral Alumni</h1>
+  </div>
+</div>
+
+<hr>
+
+{% include member_loop.html alumni=pd%}
+
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>Masters Alumni</h1>
+  </div>
+</div>
+
+<hr>
+
+{% include member_loop.html alumni=mas%}
+
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>Undergraduate Alumni</h1>
+  </div>
+</div>
+
+<hr>
+
+{% include member_loop.html alumni=ug%}
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>Visiting Student Alumni</h1>
+  </div>
+</div>
+
+<hr>
+
+{% include member_loop.html alumni=visitor%}

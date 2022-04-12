@@ -1,10 +1,10 @@
 ---
 layout: member
 title: Robert Tannenbaum 
-alumni: true
+alumni: mas
 profile_name: Robert Tannenbaum
 abbrev: R. Tannenbaum
-position: MS Student
+position: Ph.D. student, Columbia University
 research: Field Theoretic Modelling for Equilibrium Polymer Conformations in Nanocomposite Systems
 email: rtann at alumni.upenn.edu
 image: /images/members/robbie-tannenbaum.jpg

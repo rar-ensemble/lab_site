@@ -1,9 +1,7 @@
 ---
 layout: member
 title: Mavis Athene U Chen
-alumni: true
-position: Undergraduate Student
-email: uchenm at seas.upenn.edu
+alumni: ug
 image: /images/members/mavis-chen.jpg
 research: Gas transport through glassy polymers 
 ---
