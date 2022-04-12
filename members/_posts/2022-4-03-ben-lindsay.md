@@ -5,7 +5,7 @@ profile_name: Ben Lindsay
 abbrev: B. J. Lindsay
 alumni: True
 suffix: PhD
-position: PhD Student
+position: Data Scientist, C.H. Robinson
 research: Vertical alignment of nanoparticles in nanocomposite film
 email: lindsb at seas.upenn.edu
 website: benjlindsay.com
