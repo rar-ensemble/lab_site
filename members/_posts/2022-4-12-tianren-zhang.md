@@ -4,8 +4,8 @@ title: Tianren Zhang
 abbrev: T. Zhang
 alumni: True
 suffix: PhD
-position: PhD Student
-research: Dynamics of confined entangled polymers
+position: Postdoctoral Fellow, University of Delaware
+research: Computational modeling of hybrid synthetic peptide-based polymers
 email: tianren at seas.upenn.edu
 image: /images/members/tianren-zhang.jpg
 ---
