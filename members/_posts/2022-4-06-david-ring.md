@@ -2,9 +2,8 @@
 layout: member
 title: David J. Ring
 profile_name: David Ring
-suffix: PhD
+suffix: Ph.D.
 alumni: true
 abbrev: D. J. Ring
-research: Polymer nanocomposite separations membranes
 image: /images/members/david-ring.jpg
 ---
