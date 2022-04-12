@@ -4,7 +4,7 @@ title: Samuel Layding
 alumni: false 
 profile_name: Samuel Layding
 abbrev: S. Layding
-research: Dynamics of Molecular Transport through Glassy Polymer Systems
+research: Dynamics of molecular transport through glassy polymer systems
 position: PhD Student
 email: slayding at seas.upenn.edu
 twitter: samuellayding
