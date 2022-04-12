@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Yuwei Zhang
-alumni: false 
+alumni: True 
 profile_name: Yuwei Zhang 
 abbrev: Y. Zhang
 position: MS Student

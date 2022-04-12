@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Shunshun Liu
-alumni: false 
+alumni: True 
 profile_name: Shunshun Liu
 abbrev: S. Liu
 position: MS Student
