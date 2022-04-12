@@ -3,6 +3,7 @@ layout: member
 title: Austin Meng
 alumni: false 
 profile_name: Austin Meng
+research: Mesoscale simulations of liquid crystalline diblock copolymers 
 abbrev: A. Meng
 position: PhD Student
 image: /images/members/austin_meng.jpg

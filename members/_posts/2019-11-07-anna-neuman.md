@@ -5,7 +5,7 @@ alumni: false
 profile_name: Anastasia Neuman
 abbrev: A. Neuman
 position: PhD Student
-research: Highly-filled polymer blend nanocomposites
+research: Thermodynamics of highly confined polymer blend nanocomposites
 email: annaneu at seas.upenn.edu
 scholar: t0MgfgAAAAJ
 twitter: annaneupenn
