@@ -4,7 +4,7 @@ title: Anubhav Sharma
 suffix: M.S.
 abbrev: A. Sharma
 alumni: true
-research: Mechanics of differently shaped polymers using simulations
+research: M.S. Alum
 image: /images/members/anubhav-sharma.png
 ---
 
