@@ -6,4 +6,4 @@
 
 jekyll build
 
-rsync -rav _site/* rrgroup@eniac.seas.upenn.edu:/home1/r/rrgroup/html/dynamic/ --delete
+rsync -rav _site/* rrgroup@eniac.seas.upenn.edu:~rrgroup/public_html/ --delete
