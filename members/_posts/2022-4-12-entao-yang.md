@@ -2,9 +2,9 @@
 layout: member
 title: Entao Yang
 abbrev: E. Yang
-position: PhD Student
-research: Dynamics of cross-linked star polymer nanocomposites
+suffix: Ph.D.
 linkedin: entao-yang-a29238117
-email: entaoy at seas.upenn.edu
+alumni: True
+research: Ph.D. Alum
 image: /images/members/entao-yang.jpg
 ---

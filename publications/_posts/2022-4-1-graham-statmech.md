@@ -3,7 +3,7 @@ layout: publication
 title: Predicting the unobserved. A statistical mechanics framework for non-equilibrium material response with quantified uncertainty
 authors:
  - Shenglin Huang
- - Ian R. Graham
+ - Ian Graham
  - Robert A. Riggleman
  - Paulo E. Arratio
  - Steve Fitzgerald 
