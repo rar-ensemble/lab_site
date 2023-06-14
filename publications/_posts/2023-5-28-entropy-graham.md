@@ -2,7 +2,7 @@
 layout: publication
 title: Exploring the relationship between softness and excess entropy in glass-forming systems
 authors:
- - Ian R. Graham
+ - Ian Graham
  - Paulo E. Arratia
  - Robert A. Riggleman
 authors-short:
