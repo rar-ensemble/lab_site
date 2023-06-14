@@ -3,8 +3,8 @@ layout: member
 title: Amruthesh Thirumalaiswamy
 profile_name: Amruthesh T
 abbrev: A. Thirumalaiswamy
-position: PhD Student
-research: "Energy landscape exploration and modeling for soft-glassy systems"
+suffix: Ph.D.
+research: Ph.D. Alum
 email: amru at seas.upenn.edu
 #scholar: GafF6ScAAAAJ
 linkedin: amruthesh-t-64a89511a

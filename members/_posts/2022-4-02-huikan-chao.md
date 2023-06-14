@@ -4,7 +4,7 @@ title: Huikuan Chao
 profile_name: Huikuan (George) Chao
 suffix: Ph.D.
 abbrev: H. Chao
-position: Senior Research Specialist, Dow 
+position: Assistant Professor, FAMU-FSU College of Engineering 
 research: Ph.D. Alum
 bitbucket: huikuan
 scholar: GafF6ScAAAAJ
