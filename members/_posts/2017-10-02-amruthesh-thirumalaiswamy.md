@@ -10,7 +10,7 @@ email: amru at seas.upenn.edu
 linkedin: amruthesh-t-64a89511a
 github: amruthesht
 image: /images/members/amruthesh-thirumalaiswamy.jpg
-alumni: false
+alumni: true
 ---
 I'm a Ph.D. student in the department of Chemical and Biomolecular Engineering, co-advised by Prof. [John Crocker](https://crocker.seas.upenn.edu). I'm studying the physics of soft glassy systems, and developing tools and models to explore the energy landscape of these systems.
 
