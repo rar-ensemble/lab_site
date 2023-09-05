@@ -1,8 +1,8 @@
 ---
 layout: member
-title: Zuzanna Jedlinska
+title: Zuzanna M. Jedlinska
 alumni: false 
-profile_name: Zuzanna Jedlinska
+profile_name: Zuzanna M. Jedlinska
 abbrev: Z. M. Jedlinska
 research: Computational study of complex-coacervation in polypeptide solutions
 position: PhD Student
