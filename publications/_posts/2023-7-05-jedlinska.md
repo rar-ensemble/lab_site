@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: MATILDA.FT: A mesoscale simulation package for inhomogeneous soft matter 
+title: MATILDA.FT; A mesoscale simulation package for inhomogeneous soft matter 
 authors:
  - Zuzanna M. Jedlinska
  - Christian Tabedzki
