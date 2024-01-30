@@ -3,11 +3,12 @@ layout: member
 title: Christian Tabedzki
 profile_name: Christian Tabedzki
 abbrev: C. Tabedzki
-position: PhD Student
-research: Anisotropic polymer nanocomposite simulations; bottlebrush copolymer architecture
+suffix: Ph.D.
+research: Ph.D. Alum
 email: tabedzki at seas.upenn.edu
 linkedin: tabedzki 
 image: /images/members/chris-tabedzki.jpg
+alumni: true
 ---
 
 Hi, my name is Chris. I am a fifth-year PhD student in the Chemical and Biomolecular engineering department.
